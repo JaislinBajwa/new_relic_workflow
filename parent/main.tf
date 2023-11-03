@@ -1,11 +1,11 @@
 module "monitor" {
-    source = "./api"
+    source = "../api"
     api= var.api2
 
 }
 
 module "monitor2" {
-    source="./browser"
+    source="../browser"
     browser = var.browser2
   
 }
